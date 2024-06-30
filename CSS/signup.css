@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+	color: #1c1e21;
+	font-weight: normal;
+	/*background-image: url("geometric.avif");*/
+	background-attachment: fixed;
+	background-size: cover;
+}
+.loginsignup{
+	padding: 120px;
+}
+.container{
+	width: 1050px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+.content-left{
+	max-width: 500px;
+	margin: auto;
+	padding-bottom: 10%;
+	padding-right: 1%;
+}
+.content-left h1{
+	font-size: 50px;
+	color: #1766ce;
+	margin-bottom: 20px;
+	font-weight: 1300;
+	font-family: "Konit",sans-serif ;
+	letter-spacing: 5px;
+	word-spacing: 100px;
+}
+.content-left h2{
+    font-size: 41px;
+    line-height: 32px;
+    font-weight: 1300;
+    margin-bottom: 40px;
+	font-family: "Konit";
+	letter-spacing: 3px;
+	
+}
+.content-right{
+	max-width: 450px;
+	margin: auto;
+	text-align: center;
+}
+.content-right form{
+	width: 400px;
+	height: 500px;
+	background: transparent;
+	border-radius: 10px;
+	padding: 15px;
+	border: 2px outset rgb(13, 29, 122);
+}
+.content-right form input{
+	width: 85%;
+	height: 50px;
+	font-size: 17px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.content-right form input:focus{
+	border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+.btn{
+	font-size: 20px !important;
+    background: black;
+    height: 50px !important;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 9px !important;
+    margin-bottom: 20px !important;
+    text-transform: capitalize;
+    font-weight: 550;
+
+}
+
+
+.login a{
+	display: block;
+}
+.crt{
+    margin-top: 0px;
+    font-weight: 550 !important;
+    font-size: 17px !important;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	color: #340aca;
+}
+
+.crt:hover {
+	color: rgb(0, 0, 255);
+
+}
+
+.forgot a{
+	font-size: 14px;
+	line-height: 19px;
+	color: #340aca;
+}
+.forgot a:hover,
+.content-right p a:hover{
+	text-decoration: underline;
+}
+.content-right p a{
+	color: #ffffff;
+	font-weight: 600;
+}
+/* my css */
+.logo-part{
+    padding: 28px 0 16px;
+}
+.logo-part img{
+    height: 106px;
+    margin: -28px;
+}
+.line{
+	align-items: center;
+	border-bottom: 1px solid #dadde1;
+	display: flex;
+	margin: 20px 50px 20px 50px ;
+	text-align: center;
+}
+.loginsignup.pc-verson {
+    height: 100vh;
+    display: flex;
+}
+div#pc-verson {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
