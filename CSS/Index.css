@@ -569,7 +569,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
     right: 25px;
     padding: 20px 25px;
     border-radius: var(--border-radius-md);
-    background-color: rgb(235, 17, 9);
+    background-color: rgb(20, 52, 164);
     width: max-content;
     color: white;
     font-weight: 600;
