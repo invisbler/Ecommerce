@@ -888,10 +888,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-grid .showcase-banner { position: relative; }
 
 .product-grid .product-img {
-  width: 200px;
+  max-width:350px;
+  min-width:200px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
   transition: var(--transition-timing);
+  padding: 20px;
 }
 
 .product-grid .product-img.default {
